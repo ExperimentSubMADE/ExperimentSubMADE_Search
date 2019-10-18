@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">A Movie Catalogue</string>
+    <string name="msg_gambar">Movie Image</string>
+    <string name="msg_ikon_rating">Rating Icon</string>
+    <string name="msg_logo_app">Logo App</string>
+    <string name="action_goto_moviedetail"><u>More Info</u></string>
+
+    <string name="title_content_detail_rating">Rating</string>
+    <string name="title_content_detail_overview">Overview</string>
+    <string name="title_content_detail_topcast">Cast</string>
+
+    <string name="tablayout_title_movies">Movies</string>
+    <string name="tablayout_title_tvshow">TV Show</string>
+
+    <string name="toolbar_title_change_language">Change language settings</string>
+
+    <string name="title_content_cast_desc">as</string>
+
+    <string name="msg_placeholder_cast_photo">Placeholder Cast Photo</string>
+    <string name="msg_content_backdrop_photo">Content Backdrop Photo</string>
+    <string name="msg_content_poster_photo">Content Poster Photo</string>
+
+    <string name="botnav_title_menu_movie">Movie</string>
+    <string name="botnav_title_menu_favorite">Favorite</string>
+    <string name="botnav_title_menu_tvshow">TV Show</string>
+
+    <string name="appwidget_text">Favorite Movies</string>
+    <string name="add_widget">Add widget</string>
+
+
+</resources>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/botnav_menu_movie"
+        android:title="@string/botnav_title_menu_movie"
+        android:icon="@drawable/ic_content_movie"/>
+
+    <item
+        android:id="@+id/botnav_menu_favorite"
+        android:title="@string/botnav_title_menu_favorite"
+        android:icon="@drawable/ic_content_favorite_solid"/>
+
+    <item
+        android:id="@+id/botnav_menu_tvshow"
+        android:title="@string/botnav_title_menu_tvshow"
+        android:icon="@drawable/ic_content_tvshow"/>
+
+
+</menu>

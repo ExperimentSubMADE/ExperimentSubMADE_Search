@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.cardview.widget.CardView
+        card_view:cardCornerRadius="14dp"
+        card_view:cardElevation="8dp"
+        style="@style/ItemCardViewStyles">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="160dp">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cvImageItem"
+                android:layout_width="110dp"
+                android:layout_height="match_parent"
+                card_view:cardCornerRadius="14dp">
+
+                <ImageView
+                    android:id="@+id/imageMovieItemPhoto"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:contentDescription="@string/msg_gambar"
+                    android:scaleType="fitXY"
+                    tools:src="@drawable/poster_birdbox" />
+
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:id="@+id/txtMovieItemTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="24dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_toEndOf="@id/cvImageItem"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:textColor="@color/colorBlack"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                tools:text="Movie Title" />
+
+            <TextView
+                android:id="@+id/txtMovieItemReleaseDate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txtMovieItemTitle"
+                android:layout_marginEnd="24dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="4dp"
+                android:layout_toEndOf="@id/cvImageItem"
+                android:textSize="12sp"
+                tools:text="Release Date" />
+
+            <TextView
+                android:id="@+id/txtMovieItemOverview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/imgStarRating"
+                android:layout_marginBottom="12dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="6dp"
+                android:layout_toEndOf="@id/cvImageItem"
+                android:ellipsize="end"
+                android:maxLines="2"
+                android:textSize="13sp"
+                tools:text="Ini adalah deskripsi film" />
+
+            <ImageView
+                android:id="@+id/imgStarRating"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_below="@id/txtMovieItemReleaseDate"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="8dp"
+                android:layout_toEndOf="@id/cvImageItem"
+                android:contentDescription="@string/msg_ikon_rating"
+                android:src="@drawable/tmdb_logo" />
+
+            <TextView
+                android:id="@+id/txtMovieItemRating"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@id/imgStarRating"
+                android:layout_marginBottom="4dp"
+                android:layout_marginStart="6dp"
+                android:layout_toEndOf="@id/imgStarRating"
+                android:textColor="@color/colorBlack"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                tools:text="70%" />
+
+            <TextView
+                android:id="@+id/txtMovieGoToDetail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginBottom="12dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginStart="16dp"
+                android:text="@string/action_goto_moviedetail"
+                android:textColor="@color/colorTwo"
+                android:textSize="12sp"
+                android:textStyle="bold"/>
+
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>

@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">A Movie Catalogue</string>
+    <string name="msg_gambar">Gambar Movie</string>
+    <string name="msg_ikon_rating">Ikon Rating</string>
+    <string name="msg_logo_app">Logo App</string>
+    <string name="action_goto_moviedetail"><u>Info Selanjutnya</u></string>
+
+    <string name="title_content_detail_rating">Rating</string>
+    <string name="title_content_detail_overview">Ringkasan</string>
+    <string name="title_content_detail_topcast">Pemeran</string>
+
+    <string name="tablayout_title_movies">Film</string>
+    <string name="tablayout_title_tvshow">Acara TV</string>
+
+    <string name="toolbar_title_change_language">Ubah pengaturan bahasa</string>
+
+    <string name="title_content_cast_desc">sebagai</string>
+
+    <string name="msg_placeholder_cast_photo">Placeholder Foto Pemeran</string>
+    <string name="msg_content_backdrop_photo">Foto Backdrop Konten</string>
+    <string name="msg_content_poster_photo">Foto Poster Konten</string>
+
+    <string name="botnav_title_menu_movie">Film</string>
+    <string name="botnav_title_menu_favorite">Favorit</string>
+    <string name="botnav_title_menu_tvshow">Acara TV</string>
+
+    <string name="appwidget_text">Film Favorit</string>
+    <string name="add_widget">Tambahkan Widget</string>
+
+</resources>

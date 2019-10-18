@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_vertical"
+    android:layout_marginBottom="8dp">
+
+    <ImageView
+        android:id="@+id/imageContentCastPhoto"
+        android:layout_width="100dp"
+        android:layout_height="140dp"
+        android:contentDescription="@string/msg_placeholder_cast_photo"
+        android:scaleType="fitXY"
+        tools:src="@drawable/cast_placeholder_image" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toEndOf="@id/imageContentCastPhoto"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txtContentCastRealName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="32dp"
+            android:layout_marginStart="16dp"
+            android:textColor="@color/colorBlack"
+            android:textSize="14sp"
+            tools:text="Josh Brolin"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="2dp"
+            android:text="@string/title_content_cast_desc"
+            android:textColor="@color/colorBlack"
+            android:textSize="12sp"/>
+
+        <TextView
+            android:id="@+id/txtContentCastCharacter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="32dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/colorOne"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            tools:text="Thanos"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

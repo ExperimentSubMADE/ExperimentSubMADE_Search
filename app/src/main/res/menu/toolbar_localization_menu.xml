@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_change_language"
+        android:title="@string/toolbar_title_change_language"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/action_search_content"
+        android:icon="@drawable/ic_content_search"
+        android:title="Search Content"
+        app:showAsAction="ifRoom"/>
+
+</menu>
